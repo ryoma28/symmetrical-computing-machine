@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head><title> Clarenz World </title>
+        <style>
+            .footer{
+                text-align: center;
+                padding:10px;
+                background-color:#ddd;
+            }
+            table{
+                width:auto;
+                border:1px solid black
+            }
+            dt{
+                font-weight:bold;
+                font: size 1.2em;
+            }
+            section{
+                padding:10px;
+                border:1px solid black;
+                margin:10 px
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header"><h1> My Own little World </h1></header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#exp"> Experience </a></li>
+                <li><a href="#edu"> Education </a></li>
+                <li><a href="#int"> Interest </a></li>
+                <li><a href="#Ski"> Skills </a></li>
+                <li><a href="#Con"> Contact </a></li>
+            </ul>
+        </nav>
+        <article>
+            <p> Welcome to my website, hope you enjoy it. </p>
+            <hr>
+            <p> My Name is Clarenz Canlas </p>
+            <img width="50"
+            src="https://sanet.pics/storage-4/1218/96coAR6FF9S3DSCLG4UcxjGgLzmVvmXE.jpg">
+        </article>
+        <section id="Exp">
+            <h2> Experience </h2>
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color: #ddd;">
+                </colgroup>
+                <tr>
+                    <th> Company</th>
+                    <th> Details</th>
+                    <th> Years</th>
+                </tr>
+                <tr>
+                    <td> Discovery VIP </td>
+                    <td> Created Courses </td>
+                    <td> 2002 - 2021 </td>
+                </tr>
+            </table>
+        </section> 
+        <section id="Edu">
+            <h2> Education </h2>
+            <dl>
+                <dt> My University: </dt>
+                <dd> MBA </dd>
+                <dt> Degree: </dt>
+                <dd> Computer Science </dd>
+            </dl>
+        </section>
+        <section id="Int">
+            <h2> Interest </h2>
+            <ul>
+                <li> Computers </li>
+                <li> Skiing </li>
+                <li> Swimming </li>
+            </ul>
+        </section>
+        <section id="Ski">
+            <h2> Skills </h2>
+            <ol>
+                <li> CSS </li>
+                <li> HTML </li>
+                <li> Javascript 
+                    <ul>
+                        <li>DOM</li>
+                        <li>Node</li>
+                        <li> google Apps Script </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section id="Con">
+            <h2> Contact Me </h2>
+            <p> Contact me at my email <a href="
+                mailto:laurenceSvekis@myemail.com"> My email address </a>
+            </p>
+        </section>
+        <footer class="footer"> Copyright (c) 2022 Laurence Svekis Content
+            please contact me to find out more.</footer>
+        </body>
+</html>
